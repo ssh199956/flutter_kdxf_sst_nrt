@@ -1,6 +1,6 @@
 name: flutter_kdxf_sst_nrt
-description: 科大讯飞语音转文字,流式语音识别,基于Flutter3.7.10
-version: 0.0.1
+description: 科大讯飞语音转文字,流式语音识别实现,基于Flutter3.7.10
+version: 0.0.2
 homepage: https://github.com/ssh199956/fl_kdxf_sst_nrt
 
 environment:

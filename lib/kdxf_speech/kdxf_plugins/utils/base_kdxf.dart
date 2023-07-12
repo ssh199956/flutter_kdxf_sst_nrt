@@ -15,6 +15,15 @@ mixin KDXFBaseSpeechRecognitionMixin<T extends StatefulWidget> on State<T> {
   XfManage? _xf;
   bool isStarting = false;
 
+  //callback firstly
+  void setKDXFInfo(
+      String host, String appId, String appKey, String apiSecret) {
+    host = host;
+    appId = appId;
+    appKey = appKey;
+    apiSecret = apiSecret;
+  }
+
   get isCanSpeak => !isStarting;
 
   get showMsg => _msg;
@@ -114,6 +123,15 @@ mixin KDXFBaseSpeechRecognitionBlueMixin {
     checkPermission();
     SoundRecord.init();
     KDXFStartListening();
+  }
+
+  //callback firstly
+  void setKDXFInfo(
+      String host, String appId, String appKey, String apiSecret) {
+    host = host;
+    appId = appId;
+    appKey = appKey;
+    apiSecret = apiSecret;
   }
 
   /// 获取/判断权限

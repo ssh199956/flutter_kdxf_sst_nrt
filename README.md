@@ -33,6 +33,10 @@ other platforms.
 ## Usage
 
 ```dart
+//'Attention, set this content first before using all content'
+setKDXFInfo("", "", "", "");
+```
+```dart
 class WsWidgetPage extends StatefulWidget {
   @override
   _WsWidgetPageState createState() => _WsWidgetPageState();
@@ -43,6 +47,8 @@ class _WsWidgetPageState extends State<WsWidgetPage>
   @override
   void initState() {
     super.initState();
+    //this is your keys of kdxf.
+    setKDXFInfo("", "", "", "");
     KDXFInit();
   }
 
@@ -56,7 +62,7 @@ class _WsWidgetPageState extends State<WsWidgetPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('讯飞语音转文字测试-语音识别'),
+        title: Text('讯飞语音转文字测试'),
       ),
       body: Column(
         children: [

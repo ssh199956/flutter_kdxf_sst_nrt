@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter_kdxf_sst_nrt/kdxf_speech/kdxf_plugins/utils/base_kdxf.dart';
 import 'package:siri_wave/siri_wave.dart';
-
-import '../kdxf_plugins/utils/base_kdxf.dart';
 
 class SpeechToTextKFSmall extends StatefulWidget {
   const SpeechToTextKFSmall({super.key, required this.isShowCheck});

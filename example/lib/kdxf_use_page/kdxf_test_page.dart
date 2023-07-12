@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '../kdxf_plugins/utils/base_kdxf.dart';
-
+import 'package:flutter_kdxf_sst_nrt/kdxf_speech/kdxf_plugins/utils/base_kdxf.dart';
 class MyHomeXFPage extends StatefulWidget {
   const MyHomeXFPage({Key? key}) : super(key: key);
 
